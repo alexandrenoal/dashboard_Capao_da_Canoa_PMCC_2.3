@@ -1,0 +1,36 @@
+<?php
+date_default_timezone_set('America/Sao_Paulo');
+?>
+<!--<link rel="stylesheet" href="css/sidebar.css">-->
+<aside class="sidebar">
+    <div class="logo">
+        <!--<div class="logo-img">
+            <img src="assets/capao.png" alt="Capão da canoa" width="50" height="71">
+        </div>-->
+        <div class="logo-mark">CPD · ti</div> 
+        <div class="logo-name">Capão da canoa</div>        
+    </div>
+    <!--<div class="logo">
+        <div class="logo-img">
+        <img src="assets/capao.png" alt="Capão da canoa" width="50" height="71">
+            </div>
+        <div class="logo-name">CPD</div>  
+        <div class="logo-mark">sistema · ti</div>               
+    </div>-->
+    <div class="nav-section">
+        <div class="nav-label">Menu</div>
+        <a href="dashboard.php" class="nav-item active"><span class="nav-dot"></span> Dashboard</a>
+        <a href="ordens.php" class="nav-item"><span class="nav-dot"></span> Ordens de Serviço</a>
+        <a href="relatorios.php" class="nav-item"><span class="nav-dot"></span> Relatórios</a>
+        <a href="secretarias.php" class="nav-item"><span class="nav-dot"></span> Secretarias</a>
+        <a href="importarsql.php" class="nav-item"><span class="nav-dot"></span> Importar SQL</a>
+    </div>
+    <div class="contaner">
+        
+    </div>
+
+    <div class="sidebar-footer">
+        <?=date('d/m/Y H:i')?><br>
+        <span style="color:var(--g)">● online</span>
+    </div>
+</aside>
